@@ -1,6 +1,5 @@
 # AVA-TTS
-tts voice 음성파일을 생성합니다.
-보이스 클로닝을 위한 샘플 보이스는 필수는 아니지만
+tts voice 음성파일을 생성합니다. (english only)
 
 # 디렉토리
 
