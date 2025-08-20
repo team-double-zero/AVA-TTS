@@ -1,0 +1,30 @@
+# pip install -r requirements.txt
+
+# Core PyTorch (CUDA 11.8 빌드)
+torch==2.6.0+cu118
+torchvision==0.21.0+cu118
+torchaudio==2.6.0+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Hugging Face / Diffusers stack
+transformers==4.46.3
+diffusers==0.29.0
+safetensors==0.5.3
+tokenizers==0.20.3
+peft==0.13.2   # LoRA / Adapter 관련 권장 패키지
+
+# Chatterbox-TTS & dependencies
+chatterbox-tts==0.1.2
+conformer==0.3.2
+resemble-perth==1.0.1
+s3tokenizer==0.2.0
+onnx==1.18.0
+
+# Utilities
+pre-commit==4.3.0
+identify==2.6.13
+cfgv==3.4.0
+nodeenv==1.9.1
+virtualenv==20.34.0
+zipp==3.23.0
+importlib-metadata==8.7.0
