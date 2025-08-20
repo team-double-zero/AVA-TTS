@@ -17,5 +17,5 @@ sample voice files (WAV)
 
 use command below to install requirements
 ```
-pip install -r "requirements.txt"
+pip install -r requirements.txt
 ```
