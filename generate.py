@@ -32,7 +32,7 @@ def main():
 
     json_path = sys.argv[1]
     if not json_path.endswith(".json"): json_path += ".json"
-    data = load_request(Path(json_path))
+    data = load_request(Path("./input/"+json_path))
     print(f"Processing request from: {json_path}")
 
     OUTPUT = str(json_path).strip(".json")
