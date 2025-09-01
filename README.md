@@ -23,13 +23,9 @@ tts voice 음성파일을 생성합니다. (english only)
 
 ## 의존성 설치
 ```
-pip install -r requirements.txt
+pip install -r req-chatterbox.txt
 ```
 ## 파일 실행
 ```
-python generate.py <filename>
-```
-or
-```
-python generate.py <filename.json>
+python cuda-chatterbox.py <filename.json>
 ```
