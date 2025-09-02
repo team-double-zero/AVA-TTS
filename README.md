@@ -23,7 +23,7 @@ tts voice 음성파일을 생성합니다. (english only)
 
 ## 의존성 설치
 ```
-pip install -r req-chatterbox.txt
+pip install -r requirements.txt
 ```
 ## 파일 실행
 ```
