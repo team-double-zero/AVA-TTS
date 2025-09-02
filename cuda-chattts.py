@@ -74,7 +74,7 @@ def tts(text: str, out_path: str = "sample_cuda.wav") -> str:
                 continue
             wav_segment = chat.infer(
                 sent,
-                params_refine_text=ChatTTS.Chat.RefineTextParams(temperature=0.3, top_p=0.7),
+                params_refine_text=ChatTTS.Chat.RefineTextParams(temperature=0.3),
                 params_infer_code=ChatTTS.Chat.InferCodeParams(spk_emb=SPK_EMB, temperature=0.3, top_p=0.7),
                 use_decoder=False,
                 stream=False,
